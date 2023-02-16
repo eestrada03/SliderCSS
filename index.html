@@ -4,18 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pure CSS3 Slider</title>
+    <title>Slider</title>
     <!-- RESET -->
     <link rel="stylesheet" href="style/normalize.css" />
     <link rel="stylesheet" href="style/estilos.css" />
   </head>
   <body>
-    <!-- Header -->
-    <header>
-      <nav></nav>
-    </header>
     <main>
-      <!-- Slider -->
+      <!-- Componente Slider -->
       <div class="carroussel">
         <div class="slides">
           <!-- Slider 01 -->
@@ -31,7 +27,16 @@
                 </h2>
               </div>
             </div>
-            <img src="img/1.jpg" />
+            <picture>
+              <!-- Desktop -->
+              <source
+                srcset="./img/dirtydesk.webp 1x, ./img/dirtydesk@2x.webp 2x"
+                media="(min-width:1200px)"
+              />
+
+              <!-- SEO -->
+              <img src="img/dirtydesk.webp" alt="A dirty desktop." />
+            </picture>
           </div>
 
           <!-- Slider 02 -->
@@ -47,8 +52,16 @@
                 </h2>
               </div>
             </div>
+            <picture>
+              <!-- Desktop -->
+              <source
+                srcset="./img/pen.webp 1x, ./img/pen@2x.webp 2x"
+                media="(min-width:1200px)"
+              />
 
-            <img src="img/2.jpg" />
+              <!-- SEO -->
+              <img src="/img/pen.webp" alt="Someone writing with a pen." />
+            </picture>
           </div>
           <!-- Slider 03 -->
           <div class="slider">
@@ -64,7 +77,16 @@
               </div>
             </div>
 
-            <img src="img/3.jpg" />
+            <picture>
+              <!-- Desktop -->
+              <source
+                srcset="./img/cleandesk.webp 1x, ./img/cleandesk@2x.webp 2x"
+                media="(min-width:1200px)"
+              />
+
+              <!-- SEO -->
+              <img src="/img/cleandesk.webp" alt="A clean desktop." />
+            </picture>
           </div>
         </div>
 
