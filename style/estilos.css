@@ -6,6 +6,23 @@
     overflow: hidden;
 } */
 
+@font-face {
+  font-family: "Quicksand";
+  src: url(../font/quicksand.woff2);
+}
+@font-face {
+  font-family: "Intro";
+  src: url(../font/intro.woff2);
+}
+
+h1 {
+  font-family: "Intro";
+}
+
+h2 {
+  font-family: "Quicksand";
+}
+
 body {
   overflow-x: hidden;
   height: 100vh;

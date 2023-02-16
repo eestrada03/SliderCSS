@@ -20,3 +20,8 @@
 * Actualizado nombre de las imágenes.
 * Actualizado formato de las imágenes a webp.
 * Añadido estructura picture con distinto renderizado.
+
+- Optimización de tipografías
+- Actualizado formato de las tipografías a woff2.
+- Añadido de tipografías a h1 y h2 (Intro y Quicksand).
+
